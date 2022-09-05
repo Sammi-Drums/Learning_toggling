@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+}
+/* .NavBar{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: auto auto;
+} */
+.NavBar1{
+    display: flex;
+    border: 1px solid blue;
+    /* background-color: blue; */
+    background-image: linear-gradient(to right, rgba(139, 139, 212, 0.863), rgb(0, 0, 255));
+    color: white;
+    padding: 1%;
+}
+.left{
+    flex: 60%;
+    margin-left: 10%;
+}
+.right{
+    flex: 40%;
+    margin-left: 50%;
+}
+.NavBar2{
+    display: flex;
+    border: 1px solid black;
+    padding: 1%;
+}
+.logoArea{
+    display: flex;
+    flex: 35%;
+    margin-left: 9%;
+    
+}
+.logoArea h2{
+    margin-top: 1.8%;
+}
+.logoArea button{
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 0;
+    background-color: transparent;
+    margin-left: 3%;
+    border-color: rgba(204, 189, 170, 0.384);
+    font-size: 20px;
+    font-weight: 540;
+}
+.Left{
+    display: flex;
+    flex: 65%;
+    /* padding: 2%; */
+    margin-left: -27%;
+}
+.Left li{
+    list-style: none;
+    padding: 1%;
+    padding-left: 16%;
+    margin-left: -11.5%;
+    margin-right: ;
+}
+.Left li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+   
+}
+.Left li a:hover{
+    font-size: 27px;
+}
+/* .rightt{
+    flex: 20%;
+    margin-left: 9%;
+    padding: 2%;
+} */
+.Left button{
+    margin-top: ;
+    padding: 1%;
+    background-color: transparent;
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 0;
+    padding-left: 1%;
+    border-color: rgba(204, 189, 170, 0.384);
+    font-size: 25px;
+    margin-right: 75%;
+}
+.Container{
+    background-image: url(../Images/Typing\ Laptop.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+}
+.overlay{
+    background-color: rgba(21, 21, 22, 0.192);
+    height: 700px;
+    width: 100%;
+    z-index: 1;
+}
+.bodyText{
+    color: white;
+    z-index: 99;
+}
+.bodyText h2{
+    padding-top: 3%;
+    color: blue;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.bodyText h1{
+    font-size: 90px;
+    margin-top: 2%;
+    margin-bottom: 7%;
+}
+.bodyText button{
+    padding: 1%;
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 5%;
+}
+.bodyText button:hover{
+    color: blue;
+    background-color: white;
+    border-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
